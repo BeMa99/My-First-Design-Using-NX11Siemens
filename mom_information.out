@@ -1,0 +1,16 @@
+***** A TCL Error Has Occurred *****
+Event Handler: D:\Programs\Siemens\NX 11.0\mach\resource\library\machine\installed_machines\sim10_millturn_5ax\postprocessor\fanuc\sim10_millturn_5ax_MASTER_IN.tcl
+Event: MOM_before_motion
+Error Info: can't read "mom_nxt_pos(3)": no such element in array
+    while executing
+"format "%.${rotary_decimals}f" $mom_nxt_pos(3)"
+    (procedure "PB_CMD_combine_rotary_check" line 81)
+    invoked from within
+"PB_CMD_combine_rotary_check"
+    (procedure "PB_CMD_before_motion" line 4)
+    invoked from within
+"PB_CMD_before_motion "
+    (procedure "MOM_before_motion" line 18)
+    invoked from within
+"MOM_before_motion"
+Error Code: NONE
